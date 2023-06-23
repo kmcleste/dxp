@@ -18,3 +18,9 @@ if command -v tfenv &> /dev/null
 then
     brew uninstall tfenv
 fi
+
+# Uninstall cookiecutter
+if command -v cookiecutter &> /dev/null
+then
+    brew uninstall cookiecutter
+fi

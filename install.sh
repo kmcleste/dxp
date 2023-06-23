@@ -16,7 +16,6 @@ if ! command -v poetry &> /dev/null
 then
     curl -sSL https://install.python-poetry.org | python3 -
     echo export PATH="\$HOME/.local/bin:\$PATH" >> ~/.zshrc
-    source ~/.zshrc
 else
     poetry self update
 fi
@@ -45,4 +44,13 @@ then
     echo export PATH="\$HOME/.tfenv/bin:\$PATH" >> ~/.zprofile
 else
     brew upgrade tfenv
+fi
+
+# Install cookiecutter
+if ! command -v cookiecutter &> /dev/null
+then
+    brew install cookiecutter
+    echo export PATH="\$HOME/.local/bin:\$PATH" >> ~/.zshrc # TODO: Check if already exists in zsh
+else
+    brew upgrade cookiecutter
 fi
