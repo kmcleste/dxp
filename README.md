@@ -26,3 +26,5 @@ If you break something or decide you no longer need the bundled packages, you ca
 ```zsh
 ./uninstall.sh
 ```
+
+Get started developing your first project faster with my [cookiecutter template](https://github.com/kmcleste/cookiecutter-pyproject).
