@@ -1,4 +1,4 @@
-# DXP (WIP)
+# DXP
 
 This repository contains basic python dev environment scripts for macOS.
 
@@ -17,7 +17,6 @@ Included in installation:
 - [Poetry](https://python-poetry.org/): Python package and dependency manager
 - [Pyenv](https://github.com/pyenv/pyenv): Python environment and version manager
 - [TFenv](https://github.com/tfutils/tfenv): Terraform version manager
-- [Cookiecutter](https://github.com/cookiecutter/cookiecutter): Create project boilerplate
 
 Installation could take a few minutes. Once everything is installed, you may need to start a new shell for the changes take effect. To update your packages in the future, simply run the install script again.
 
